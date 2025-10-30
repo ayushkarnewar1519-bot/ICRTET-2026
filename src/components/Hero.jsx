@@ -46,7 +46,7 @@ export default function Hero() {
   const duplicatedLogos = [...partnerLogos, ...partnerLogos];
 
   return (
-    <section id="home" className="relative h-[100vh] flex items-center justify-center">
+    <section id="home" className="relative h-[100vh] flex items-center justify-center bg-red-200">
       {/* Background Slideshow */}
       <div className="absolute inset-0 overflow-hidden">
         {slides.map((src, index) => (
