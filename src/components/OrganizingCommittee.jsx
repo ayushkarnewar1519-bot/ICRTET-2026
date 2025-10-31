@@ -5,27 +5,27 @@ export default function OrganizingCommittee() {
     {
       name: "Hon'ble Dr. D. Y. Patil",
       title: "Founder President, D. Y. Patil Education Society",
-      image: "/dyp.png",
+      image: " dyp.png",
     },
     {
       name: "Hon'ble Dr. Sanjay D. Patil",
       title: "President, D. Y. Patil Pratishthan",
-      image: "/sp.jpg",
+      image: " sp.jpg",
     },
     {
       name: "Hon'ble Satej D. Patil",
       title: "Vice-President, D. Y. Patil Pratishthan",
-      image: "/sp2.jpg",
+      image: " sp2.jpg",
     },
     {
       name: "Hon'ble Ruturaj S. Patil",
       title: "Trustee, D. Y. Patil Pratishthan",
-      image: "/rp.jpeg",
+      image: " rp.jpeg",
     },
     {
       name: "Hon'ble Prithviraj S. Patil",
       title: "Trustee, D. Y. Patil Pratishthan",
-      image: "/pp.jpeg",
+      image: " pp.jpeg",
     },
   ]
 
@@ -33,17 +33,17 @@ export default function OrganizingCommittee() {
     {
       name: "Dr. A. K. Gupta",
       title: "Executive Director, D. Y. Patil Group, Kolhapur",
-      image: "/ak.jpeg",
+      image: " ak.jpeg",
     },
     {
       name: "Prof. Dr. S. D. Chede",
       title: "Principal, DYPCET, Kolhapur",
-      image: "/chede.png",
+      image: " chede.png",
     },
     {
       name: "Prof. Dr. L. V. Malade",
       title: "Registrar, DYPCET, Kolhapur",
-      image: "/lm.jpg",
+      image: " lm.jpg",
     },
   ]
 
@@ -51,7 +51,7 @@ export default function OrganizingCommittee() {
     {
       name: "Dr. Mrs. Manisha Bhanuse",
       title: "Conference Convenor & Coordinator",
-      image: "/mb.jpg",
+      image: " mb.jpg",
     },
   ]
 
@@ -59,69 +59,69 @@ export default function OrganizingCommittee() {
     {
       name: "Dr. A. N. Jadhav",
       department: "Computer Science & Engineering",
-      image: "/amol.jpg",
+      image: " amol.jpg",
     },
     {
       name: "Dr. S. B. Mohite",
       department: "International Affairs",
-      image: "/if.jpg",
+      image: " if.jpg",
     },
     {
       name: "Dr. B. D. Vhanmore",
       department: "General Engineering",
-      image: "/ge.jpg",
+      image: " ge.jpg",
     },
     {
       name: "Dr. P. S. Gavali",
       department: "Computer Science & Engineering",
-      image: "/cse.jpg",
+      image: " cse.jpg",
     },
     {
       name: "Dr. Y. A. Donolikar",
       department: "Chemical Engineering",
-      image: "/chem.jpg",
+      image: " chem.jpg",
     },
     {
       name: "Dr. A. S. Sutar",
       department: "Civil Engineering",
-      image: "/civ.jpg",
+      image: " civ.jpg",
     },
     {
       name: "Ms. R. B. Patil",
       department: "CSE (AIML)",
-      image: "/aiml.jpg",
+      image: " aiml.jpg",
     },
     {
       name: "Mrs. T. V. Deokar",
       department: "CSE (DS)",
-      image: "/ds.jpg",
+      image: " ds.jpg",
     },
     {
       name: "Mrs. Supriya S. Patil",
       department: "Architecture",
-      image: "/arch.jpg",
+      image: " arch.jpg",
     },
   ]
 
   const advisoryCommitteeMembers = [
-    { name: "Dr. A. L. Jadhav", affiliation: "Dean (R & D)", image: "/deanrnd.jpg" },
-    { name: "Dr. T. B. MohitePatil", affiliation: "HoD, E & TC", image: "/hodentc.jpg" },
-    { name: "Dr. K. T. Jadhav", affiliation: "HoD, Chemical", image: "/hodchem.jpg" },
-    { name: "Dr. K. A. Mane", affiliation: "HoD, Civil", image: "/hodciv.png" },
-    { name: "Ms. R. J. Dhanal", affiliation: "HoD, CSE", image: "/hodcse.jpg" },
-    { name: "Mr. I. S. Jadhav", affiliation: "HoD, Arch.", image: "/hodarch.jpg" },
-    { name: "Dr. S. V. Patil", affiliation: "HoD, AIML", image: "/hodaiml.jpg" },
-    { name: "Dr. G. V. Patil", affiliation: "HoD, DS", image: "/hodds.jpg" },
-    { name: "Dr. N. D. Sangale", affiliation: "HoD, GE", image: "/hodfy.jpg" },
+    { name: "Dr. A. L. Jadhav", affiliation: "Dean (R & D)", image: " deanrnd.jpg" },
+    { name: "Dr. T. B. MohitePatil", affiliation: "HoD, E & TC", image: " hodentc.jpg" },
+    { name: "Dr. K. T. Jadhav", affiliation: "HoD, Chemical", image: " hodchem.jpg" },
+    { name: "Dr. K. A. Mane", affiliation: "HoD, Civil", image: " hodciv.png" },
+    { name: "Ms. R. J. Dhanal", affiliation: "HoD, CSE", image: " hodcse.jpg" },
+    { name: "Mr. I. S. Jadhav", affiliation: "HoD, Arch.", image: " hodarch.jpg" },
+    { name: "Dr. S. V. Patil", affiliation: "HoD, AIML", image: " hodaiml.jpg" },
+    { name: "Dr. G. V. Patil", affiliation: "HoD, DS", image: " hodds.jpg" },
+    { name: "Dr. N. D. Sangale", affiliation: "HoD, GE", image: " hodfy.jpg" },
   ]
 
   const studentCommittee = [
     { name: "Mr. Ayush Karnewar", phone: "+91 9960670950", image: "ak.jpg" },
-    { name: "Mr. Tufailahamad Sayyad", phone: "+91 8421120445", image: "/ts.jpg" },
-    { name: "Ms. Mukta Tamhankar", phone: "+91 9405488622", image: "/mt.jpg" },
-    { name: "Mr. Ritwik Kanojia", phone: "+91 7777086457", image: "/rk.jpg" },
-    { name: "Mr. Prathamesh Sargar", phone: "+91 8010618424", image: "/ps.jpg" },
-    { name: "Mr. Sahil Chavan", phone: "+91 9307480797", image: "/sc.jpg" },
+    { name: "Mr. Tufailahamad Sayyad", phone: "+91 8421120445", image: " ts.jpg" },
+    { name: "Ms. Mukta Tamhankar", phone: "+91 9405488622", image: " mt.jpg" },
+    { name: "Mr. Ritwik Kanojia", phone: "+91 7777086457", image: " rk.jpg" },
+    { name: "Mr. Prathamesh Sargar", phone: "+91 8010618424", image: " ps.jpg" },
+    { name: "Mr. Sahil Chavan", phone: "+91 9307480797", image: " sc.jpg" },
   ]
 
   return (
