@@ -7,21 +7,21 @@ export default function AboutConference() {
       title: "Professor of Control Engineering and Systems Informatics",
       info: "Acting Associate Dean (Research & Innovation)",
       affiliation: "School of Computing, Engineering and Digital Technologies, Teesside University, UK",
-      image: "/SPeak_1.png",
+      image: "SPeak_1.png",
     },
     {
       name: "Dr. Kalaivani Chellappan",
       title: "PhD, Associate Professor",
       info: "Faculty of Engineering & Built Environment",
       affiliation: "Universiti Kebangsaan Malaysia (UKM)",
-      image: "/Speak_.png",
+      image: "Speak_.png",
     },
     {
       name: "Nilanjan Dey",
       title: "Professor",
       info: "Department of Computer Science and Engineering",
       affiliation: "Techno International New Town, Kolkata, West Bengal, India",
-      image: "/Speak_3.png",
+      image: "Speak_3.png",
     },
   ];
 
