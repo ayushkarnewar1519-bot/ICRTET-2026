@@ -2,10 +2,10 @@ import { Plane, Train, Car } from "lucide-react"
 
 export default function VisitKolhapur() {
   const touristAttractions = [
-    { name: "Rankala Lake", description: "Scenic beauty and boating", image: "/rankala.jpeg" },
-    { name: "Mahalaxmi Temple", description: "Historic religious site", image: "/amba.jpg" },
-    { name: "New Palace", description: "Royal architecture", image: "/np.jpeg" },
-    { name: "Panhala Fort", description: "Historical fortress", image: "/panhala.jpeg" },
+    { name: "Rankala Lake", description: "Scenic beauty and boating", image: " rankala.jpeg" },
+    { name: "Mahalaxmi Temple", description: "Historic religious site", image: " amba.jpg" },
+    { name: "New Palace", description: "Royal architecture", image: " np.jpeg" },
+    { name: "Panhala Fort", description: "Historical fortress", image: " panhala.jpeg" },
   ]
 
   const accommodationOptions = [
