@@ -8,7 +8,7 @@ export default function AboutInstitute() {
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <img src="/dypcet.jpg" alt="DYPCET Campus" className="rounded-lg shadow-lg" />
+            <img src=" dypcet.jpg" alt="DYPCET Campus" className="rounded-lg shadow-lg" />
           </div>
           <div>
             <p className="text-lg text-gray-600 mb-6">
