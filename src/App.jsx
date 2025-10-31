@@ -14,7 +14,7 @@ const App = () => {
   }
 
   return (
-    <Router>
+    <Router basename="/ICRTET-2026">
       <div className="flex flex-col min-h-screen">
 
       
