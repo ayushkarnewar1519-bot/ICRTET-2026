@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   // Background slideshow images
-  const slides = ["/dypcet.jpg", "/dyp2.jpg", "/dyp3.jpg", "/dyp4.jpg"];
+  const slides = [" dypcet.jpg", " dyp2.jpg", " dyp3.jpg", " dyp4.jpg"];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -37,11 +37,11 @@ export default function Hero() {
   }, []);
 
   const partnerLogos = [
-    { src: "/scopus.jpg", alt: "Elsevier" },
-    { src: "/springer.jpg", alt: "Springer" },
-    { src: "/Picture3.jpg", alt: "IEEE" },
-    { src: "/Picture4.jpg", alt: "ACM" },
-    { src: "/Picture5.jpg", alt: "Wiley" },
+    { src: " scopus.jpg", alt: "Elsevier" },
+    { src: " springer.jpg", alt: "Springer" },
+    { src: " Picture3.jpg", alt: "IEEE" },
+    { src: " Picture4.jpg", alt: "ACM" },
+    { src: " Picture5.jpg", alt: "Wiley" },
   ];
   const duplicatedLogos = [...partnerLogos, ...partnerLogos];
 
