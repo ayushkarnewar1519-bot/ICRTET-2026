@@ -28,17 +28,17 @@ export default function Navbar({ activeSection, scrollToSection }) {
           {/* ---------- Left Logos Section ---------- */}
           <div className="flex items-center space-x-15">
             <img
-              src="/College logo.jpg"
+              src=" College logo.jpg"
               alt="College Logo"
               className="h-12 w-auto object-contain"
             />
             <img
-              src="/icrtet2026.png"
+              src=" icrtet2026.png"
               alt="ICRTET 2026 Logo"
               className="h-14 w-auto object-contain"
             />
             <img
-              src="/aicte.png"
+              src=" aicte.png"
               alt="AICTE Logo"
               className="h-12 w-auto object-contain"
             />
