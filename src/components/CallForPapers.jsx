@@ -1,5 +1,5 @@
 import { BookOpen, ExternalLink } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card"
 import { Link } from "react-router-dom"
 
@@ -65,6 +65,17 @@ export default function CallForPapers() {
                     Submit Your Paper
                   </Button>
                 </Link>
+                <a
+                  href="ICRTET 2026 IEEE-conference-Word Template.docx" // Path to your Word template file
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-4"
+                >
+                  <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    Download Paper Template
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
