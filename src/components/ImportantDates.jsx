@@ -2,7 +2,7 @@ import { Calendar } from "lucide-react";
 
 export default function ImportantDates() {
   const importantDatesData = [
-    { event: "Full Paper Submission", date: "15 November 2025", status: "upcoming" },
+    { event: "Full Paper Submission", date: "25 November 2025", status: "upcoming" },
     { event: "Notification of Acceptance", date: "10 December 2025", status: "upcoming" },
     { event: "Camera Ready Paper Submission", date: "20 December 2025", status: "upcoming" },
     { event: "Early Bird Registration", date: "20 November 2025", status: "upcoming" },
