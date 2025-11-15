@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   // Background slideshow images
-  const slides = [" dypcet.jpg", " dyp2.jpg", " dyp3.jpg", " dyp4.jpg"];
+  const slides = ["/dypcet.jpg", "/dyp2.jpg", "/dyp3.jpg", "/dyp4.jpg"];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -37,16 +37,16 @@ export default function Hero() {
   }, []);
 
   const partnerLogos = [
-    { src: " scopus.jpg", alt: "Elsevier" },
-    { src: " springer.jpg", alt: "Springer" },
-    { src: " Picture3.jpg", alt: "IEEE" },
-    { src: " Picture4.jpg", alt: "ACM" },
-    { src: " Picture5.jpg", alt: "Wiley" },
+    { src: "/scopus.jpg", alt: "Elsevier" },
+    { src: "/springer.jpg", alt: "Springer" },
+    { src: "/Picture3.jpg", alt: "IEEE" },
+    { src: "/Picture4.jpg", alt: "ACM" },
+    { src: "/Picture5.jpg", alt: "Wiley" },
   ];
   const duplicatedLogos = [...partnerLogos, ...partnerLogos];
 
   return (
-    <section id="home" className="relative h-[100vh] flex items-center justify-center bg-red-200">
+    <section id="home" className="relative h-[100vh] flex items-center justify-center">
       {/* Background Slideshow */}
       <div className="absolute inset-0 overflow-hidden">
         {slides.map((src, index) => (
@@ -87,13 +87,28 @@ export default function Hero() {
         </p>
 
        
+
         {/* Organizer Text */}
         <p className="text-lg max-w-2xl mx-auto mb-8">
           Organized by D. Y. Patil College of Engineering & Technology, Kolhapur, Maharashtra, India.
           <br />
           <span className="font-semibold">In collaboration with AICTE, New Delhi</span>
         </p>
-
+ <div className="flex items-center justify-center gap-2 text-lg md:text-xl mb-4">
+          <MapPin className="h-5 w-5" />
+          <span className="font-semibold italic">Hotel Sayaji, 2104/15, E Ward, Old Pune - Bangalore Hwy, Unit of DYP Hospitality Pvt. Ltd., Kolhapur</span>
+ </div>
+        <div className="flex items-center justify-center mb-8">
+ <a
+ href="https://maps.app.goo.gl/p28iStcKeRnkvZ1EA"
+ target="_blank"
+ rel="noopener noreferrer"
+ className="text-blue-300 hover:text-blue-100 text-lg font-medium underline flex items-center gap-1"
+ >
+ View on Google Maps
+ </a>
+        </div>
+        <br />
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
           <Link to={"https://tinyurl.com/y8evdhrb"}>
