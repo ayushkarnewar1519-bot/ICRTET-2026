@@ -2,13 +2,13 @@ import { Calendar } from "lucide-react";
 
 export default function ImportantDates() {
   const importantDatesData = [
-    { event: "Full Paper Submission", date: "25 November 2025", status: "upcoming" },
-    { event: "Notification of Acceptance", date: "10 December 2025", status: "upcoming" },
-    { event: "Camera Ready Paper Submission", date: "20 December 2025", status: "upcoming" },
-    { event: "Early Bird Registration", date: "20 November 2025", status: "upcoming" },
-    { event: "Last Date of Registration", date: "30 December 2025", status: "upcoming" }, 
+    { event: "Full Paper Submission", date: "5 December 2025", status: "upcoming" },
+    { event: "Notification of Acceptance", date: "25 December 2025", status: "upcoming" },
+    { event: "Early Bird Registration", date: "20 December 2025", status: "upcoming" },
+    { event: "Camera Ready Paper Submission", date: "10 January 2026", status: "upcoming" },
+    { event: "Last Date of Registration", date: "18 January 2026", status: "upcoming" },
     { event: "Conference Dates", date: "6-7 February 2026", status: "highlight" },
-    { event: "Poster Presentation", date: "7 February 2026", status: "highlight" },
+    { event: "Poster Presentation", date: "7 February 2026", status: "highlight" }
   ]
 
   return (
@@ -24,7 +24,7 @@ export default function ImportantDates() {
               <thead className="bg-gray-100 text-gray-800 uppercase text-sm">
                 <tr>
                   <th scope="col" className="px-6 py-3 font-bold">Event</th>
-                  <th scope="col" className="px-6 py-3 font-bold">Date</th>
+                  <th scope="col" className="px-6 py-3 font-bold">Dates (Updated)</th>
                 </tr>
               </thead>
               <tbody>
