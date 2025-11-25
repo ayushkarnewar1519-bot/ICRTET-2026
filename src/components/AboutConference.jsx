@@ -7,21 +7,28 @@ export default function AboutConference() {
       title: "Professor of Control Engineering and Systems Informatics",
       info: "Acting Associate Dean (Research & Innovation)",
       affiliation: "School of Computing, Engineering and Digital Technologies, Teesside University, UK",
-      image: "SPeak_1.png",
+      image: "/SPeak_1.png",
     },
     {
       name: "Dr. Kalaivani Chellappan",
       title: "PhD, Associate Professor",
       info: "Faculty of Engineering & Built Environment",
       affiliation: "Universiti Kebangsaan Malaysia (UKM)",
-      image: "Speak_.png",
+      image: "/Speak_.png",
     },
     {
       name: "Nilanjan Dey",
       title: "Professor",
       info: "Department of Computer Science and Engineering",
       affiliation: "Techno International New Town, Kolkata, West Bengal, India",
-      image: "Speak_3.png",
+      image: "/Speak_3.png",
+    },
+    {
+      name: "Professor John Odhiambo Onyango, Ph.D.",
+      title: "Chair of Architecture",
+      info: "Leading expert in sustainable design and energy modeling",
+      affiliation: "Howard University, USA",
+      image: "/Speak_4.jpg",
     },
   ];
 
@@ -60,7 +67,7 @@ export default function AboutConference() {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
           {keynoteSpeakersData.map((speaker, index) => (
             <Card
               key={index}
