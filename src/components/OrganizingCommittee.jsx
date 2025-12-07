@@ -97,9 +97,14 @@ export default function OrganizingCommittee() {
       image: " ds.jpg",
     },
     {
-      name: "Mrs. Supriya S. Patil",
+      name: "Mrs. S. S. Patil",
       department: "Architecture",
       image: " arch.jpg",
+    },
+    {
+      name: "Dr. P. S. Patil",
+      department: "Research Director, D. Y. Patil Education Society",
+      image: "pspatil.jpg",
     },
   ]
 
