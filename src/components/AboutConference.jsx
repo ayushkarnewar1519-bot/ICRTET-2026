@@ -24,7 +24,7 @@ export default function AboutConference() {
       image: "Speak_3.png",
     },
     {
-      name: "Professor John Odhiambo Onyango, Ph.D.",
+      name: "Prof. John Odhiambo Onyango",
       title: "Chair of Architecture",
       info: "Leading expert in sustainable design and energy modeling",
       affiliation: "Howard University, USA",
