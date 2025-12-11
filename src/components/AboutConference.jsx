@@ -67,23 +67,23 @@ export default function AboutConference() {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-600 mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-2 gap-3 sm:gap-6 md:gap-8 lg:gap-12">
           {keynoteSpeakersData.map((speaker, index) => (
             <Card
               key={index}
               className="text-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl border-2 border-transparent hover:border-blue-600"
               style={{ animation: `fadeUp 0.6s ease forwards`, animationDelay: `${index * 0.2}s` }}
             >
-              <CardContent className="p-6">
+              <CardContent className="p-3 sm:p-4 md:p-6">
                 <img
                   src={speaker.image}
                   alt={speaker.name}
-                  className="w-48 h-48 rounded-lg mx-auto mb-6 object-contain"
+                  className="w-20 h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-lg mx-auto mb-3 sm:mb-4 md:mb-6 object-contain"
                 />
-                <h3 className="text-xl font-semibold text-gray-900">{speaker.name}</h3>
-                <p className="text-blue-600 font-medium">{speaker.title}</p>
-                <p className="text-sm text-gray-700 font-semibold mt-1">{speaker.info}</p>
-                <p className="text-sm text-gray-500">{speaker.affiliation}</p>
+                <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-gray-900">{speaker.name}</h3>
+                <p className="text-xs sm:text-sm md:text-base text-blue-600 font-medium">{speaker.title}</p>
+                <p className="text-xs sm:text-sm text-gray-700 font-semibold mt-1 hidden sm:block">{speaker.info}</p>
+                <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">{speaker.affiliation}</p>
               </CardContent>
             </Card>
           ))}
