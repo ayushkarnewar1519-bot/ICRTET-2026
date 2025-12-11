@@ -100,7 +100,7 @@ export default function Hero() {
               Paper Submission
             </Button>
           </Link>
-          <a href="/DYPCET_ICRTET'26.pdf" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+          <a href="https://drive.google.com/file/d/1TwDCwzVdOVjkJbUCuifng0Cd94mFk3bj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="outline"
