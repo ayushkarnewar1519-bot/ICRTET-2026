@@ -55,7 +55,7 @@ export default function CallForPapers() {
                 </ul>
               </div>
 
-              <div class="mt-10 flex flex-col md:flex-row md:gap-6 gap-6 text-center">
+              <div className="mt-10 flex flex-col items-center md:flex-row md:items-center justify-center gap-6 md:gap-6 text-center">
                 <Link to={"https://tinyurl.com/y8evdhrb"}>
                   <Button
                     size="lg"
