@@ -147,7 +147,7 @@ export default function OrganizingCommittee() {
                 <CardContent className="p-3 sm:p-4 md:p-6 text-center">
                   <img src={person.image} alt={person.name} className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full mx-auto mb-2 sm:mb-3 md:mb-4 object-cover object-top" />
                   <h4 className="font-bold text-xs sm:text-sm md:text-base lg:text-lg text-gray-900">{person.name}</h4>
-                  <p className="text-xs sm:text-sm text-blue-600 hidden sm:block">{person.title}</p>
+                  <p className="text-xs sm:text-sm text-blue-600 block">{person.title}</p>
                 </CardContent>
               </Card>
             ))}
@@ -163,7 +163,7 @@ export default function OrganizingCommittee() {
                 <CardContent className="p-3 sm:p-4 md:p-6 text-center">
                   <img src={person.image} alt={person.name} className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full mx-auto mb-2 sm:mb-3 md:mb-4 object-cover object-top" />
                   <h4 className="font-bold text-xs sm:text-sm md:text-base lg:text-lg text-gray-900">{person.name}</h4>
-                  <p className="text-xs sm:text-sm text-blue-600 hidden sm:block">{person.title}</p>
+                  <p className="text-xs sm:text-sm text-blue-600 block">{person.title}</p>
                 </CardContent>
               </Card>
             ))}
@@ -195,7 +195,7 @@ export default function OrganizingCommittee() {
                 <CardContent className="p-2 sm:p-3 md:p-4 text-center">
                   <img src={member.image} alt={member.name} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full mx-auto mb-2 sm:mb-3 object-cover object-top" />
                   <h4 className="font-semibold text-gray-900 text-xs sm:text-sm md:text-base">{member.name}</h4>
-                  <p className="text-xs text-blue-600 hidden sm:block">{member.department}</p>
+                  <p className="text-xs text-blue-600 block">{member.department}</p>
                 </CardContent>
               </Card>
             ))}
@@ -213,7 +213,7 @@ export default function OrganizingCommittee() {
                 <CardContent className="p-2 sm:p-3 md:p-4 text-center">
                   <img src={member.image} alt={member.name} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full mx-auto mb-2 sm:mb-3 object-cover object-top" />
                   <h4 className="font-semibold text-gray-900 text-xs sm:text-sm md:text-base">{member.name}</h4>
-                  <p className="text-xs text-blue-600 hidden sm:block">{member.affiliation}</p>
+                  <p className="text-xs text-blue-600 block">{member.affiliation}</p>
                 </CardContent>
               </Card>
             ))}
