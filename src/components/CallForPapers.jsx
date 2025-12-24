@@ -76,6 +76,17 @@ export default function CallForPapers() {
                     Download Paper Template
                   </Button>
                 </a>
+                <a
+                  href="ieeecopyrightform.pdf" // Path to your PDF copyright form
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-4"
+                >
+                  <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    Download Copyright Form
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
