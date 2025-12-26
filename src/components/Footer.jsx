@@ -10,7 +10,7 @@ export default function Footer({ scrollToSection }) {
             <div className="flex items-center space-x-2 mb-4">
               {/* Replace IC square with actual logo */}
               <img
-                src="/icrtet2026.png" // path to your ICRTET logo
+                src="icrtet2026.png" // path to your ICRTET logo
                 alt="ICRTET Logo"
                 className="h-10 w-auto object-contain"
               />
