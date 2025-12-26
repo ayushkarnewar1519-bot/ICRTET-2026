@@ -69,22 +69,22 @@ export default function Contact() {
             <div className="mt-8">
               <h4 className="font-semibold text-gray-900 mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/share/19tNZFNQ1u/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Facebook className="h-4 w-4" />
                   </Button>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/dypcet_official?igsh=MXZ3OHhnMmJhbWJrOQ==" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Instagram className="h-4 w-4" />
                   </Button>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/school/d.-y.-patil-college-of-engineering-&-technology-kasaba-bawada/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Linkedin className="h-4 w-4" />
                   </Button>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/dypcet_official?t=8HG9oq5OQgsBG1iAjhhTcw&s=09" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Twitter className="h-4 w-4" />
                   </Button>
