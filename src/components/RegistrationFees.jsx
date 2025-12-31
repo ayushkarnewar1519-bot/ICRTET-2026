@@ -75,18 +75,28 @@ export default function RegistrationFees() {
               </tbody>
             </table>
           </div>
-          <div className="text-center mt-8">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700"
-              asChild
-            >
-              <a href="https://tinyurl.com/y8evdhrb" target="_blank" rel="noopener noreferrer">
-                Register Now
-              </a>
-            </Button>
-            <img src="/QR.jpg" alt="QR Code" className="mx-auto mt-4 w-32 h-32" /> 
-            <p className="text-gray-600 mt-2">Scan QR to Register</p>
+          <div className="mt-8 flex flex-col items-center gap-2 md:flex-row md:items-center justify-center">
+
+            <div className="text-left md:w-1/2 mb-4 md:mb-0">
+              <p className="text-red-600 font-semibold text-sm md:text-base">
+                Important Note: Authors are requested to complete conference registration only after receiving an official notification of acceptance or acceptance with revision from the conference team via CMT.
+              </p>
+            </div>
+            <div className="text-center md:text-right md:w-1/2 flex flex-col items-center gap-3">
+
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700"
+                asChild
+              >
+                <a href="https://me.dypgroup.edu.in/asd_EventPublicUserMaster.htm?eventID=24" target="_blank" rel="noopener noreferrer">
+                  Register Now
+                </a>
+              </Button>
+              
+              <img src="/QR-form.png" alt="QR Code" className="mx-auto mt-4 w-32 h-32" /> 
+              <p className="text-gray-600 mt-2">Scan QR to Register</p>
+            </div>
           </div>
         </div>
       </div>
