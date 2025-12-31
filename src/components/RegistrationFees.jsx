@@ -48,6 +48,7 @@ export default function RegistrationFees() {
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="overflow-hidden shadow-lg rounded-lg border border-gray-200">
+            <div className="overflow-x-auto">
             <table className="w-full text-left text-gray-700">
               <thead className="bg-gradient-to-r from-blue-600 to-blue-600 text-white">
                 <tr className="border-b border-blue-500">
@@ -74,6 +75,7 @@ export default function RegistrationFees() {
                 ))}
               </tbody>
             </table>
+             </div> 
           </div>
           <div className="mt-8 flex flex-col items-center gap-2 md:flex-row md:items-center justify-center">
 
@@ -103,3 +105,4 @@ export default function RegistrationFees() {
     </section>
   );
 }
+
