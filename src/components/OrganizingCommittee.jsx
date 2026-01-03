@@ -123,12 +123,12 @@ export default function OrganizingCommittee() {
     { name: "Dr. Bhagatsingh D Jitkar", affiliation: "Dean Academics", image: "jitkar.jpg" },
     { name: "Dr. A. L. Jadhav", affiliation: "Dean (R & D)", image: "deanrnd.jpg" },
     { name: "Dr. Santosh D. Bhopale", affiliation: "Dean IQAC", image: "bhopale.jpg" },
+    { name: "Dr. S. V. Patil", affiliation: "HoD, AIML", image: "hodaiml.jpg" },
     { name: "Dr. T. B. MohitePatil", affiliation: "HoD, E & TC", image: "hodentc.jpg" },
     { name: "Dr. K. T. Jadhav", affiliation: "HoD, Chemical", image: "hodchem.jpg" },
     { name: "Dr. K. A. Mane", affiliation: "HoD, Civil", image: "hodciv.png" },
     { name: "Ms. R. J. Dhanal", affiliation: "HoD, CSE", image: "hodcse.jpg" },
     { name: "Mr. I. S. Jadhav", affiliation: "HoD, Arch.", image: "hodarch.jpg" },
-    { name: "Dr. S. V. Patil", affiliation: "HoD, AIML", image: "hodaiml.jpg" },
     { name: "Dr. G. V. Patil", affiliation: "HoD, DS", image: "hodds.jpg" },
     { name: "Dr. N. D. Sangale", affiliation: "HoD, GE", image: "hodfy.jpg" },
   ]
