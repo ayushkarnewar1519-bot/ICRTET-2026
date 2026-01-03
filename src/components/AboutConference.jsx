@@ -3,6 +3,13 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function AboutConference() {
   const keynoteSpeakersData = [
     {
+      name: "Prof. Persi Engineer",
+      title: "Provost",
+      info: "First Provost of Sarvajanik University",
+      affiliation: "Surat, India",
+      image: "speak5.jpeg",
+    },
+    {
       name: "Michael John Short",
       title: "Professor of Control Engineering and Systems Informatics",
       info: "Acting Associate Dean (Research & Innovation)",
