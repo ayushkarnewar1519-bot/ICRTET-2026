@@ -102,13 +102,18 @@ export default function OrganizingCommittee() {
       image: "arch.jpg",
     },
     {
-      name: "Dr. P. S. Patil",
-      department: "Research Director, D. Y. Patil Education Society",
-      image: "pspatil.jpg",
+      name: "Dr. P. S. Pise",
+      department: "E&TC",
+      image: "pise.jpg",
     },
   ]
 
   const advisoryCommitteeMembers = [
+    {
+      name: "Dr. P. S. Patil",
+      affiliation: "Research Director, D. Y. Patil Education Society",
+      image: "pspatil.jpg",
+    }
     { name: "Dr. A. L. Jadhav", affiliation: "Dean (R & D)", image: "deanrnd.jpg" },
     { name: "Dr. T. B. MohitePatil", affiliation: "HoD, E & TC", image: "hodentc.jpg" },
     { name: "Dr. K. T. Jadhav", affiliation: "HoD, Chemical", image: "hodchem.jpg" },
