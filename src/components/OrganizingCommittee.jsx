@@ -82,6 +82,11 @@ export default function OrganizingCommittee() {
       image: "chem.jpg",
     },
     {
+      name: "Lt. Dr. Rahul D. Mahajan",
+      department: "NCC Coordinator",
+      image: "ncc.jpg",
+    },
+    {
       name: "Dr. A. S. Sutar",
       department: "Civil Engineering",
       image: "civ.jpg",
@@ -114,7 +119,10 @@ export default function OrganizingCommittee() {
       affiliation: "Research Director, D. Y. Patil Education Society",
       image: "pspatil.jpg",
     }
+    { name: "Dr. R. A. Patil", affiliation: "Dean Student Affairs", image: "rapatil.jpg" },
+    { name: "Dr. Bhagatsingh D Jitkar", affiliation: "Dean Academics", image: "jitkar.jpg" },
     { name: "Dr. A. L. Jadhav", affiliation: "Dean (R & D)", image: "deanrnd.jpg" },
+    { name: "Dr. Santosh D. Bhopale", affiliation: "Dean IQAC", image: "bhopale.jpg" },
     { name: "Dr. T. B. MohitePatil", affiliation: "HoD, E & TC", image: "hodentc.jpg" },
     { name: "Dr. K. T. Jadhav", affiliation: "HoD, Chemical", image: "hodchem.jpg" },
     { name: "Dr. K. A. Mane", affiliation: "HoD, Civil", image: "hodciv.png" },
