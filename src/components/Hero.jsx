@@ -7,6 +7,8 @@ export default function Hero() {
   const slides = ["dypcet.jpg", "dyp2.jpg", "dyp3.jpg", "dyp4.jpg"];
   const [current, setCurrent] = useState(0);
 
+  const alertMessage = "⚠️ Alert: Please note that the conference will be conducted in offline mode. ⚠️";
+
   useEffect(() => {
     const interval = setInterval(
       () => setCurrent((prev) => (prev + 1) % slides.length),
@@ -111,6 +113,20 @@ export default function Hero() {
               Download Brochure
             </Button>
           </a>
+        </div>
+        {/* Offline Mode Alert */}
+        <div className="mx-2 sm:mx-0 mb-4">
+          <marquee
+            className="p-2 rounded-md bg-red-800"
+            behavior="scroll"
+            direction="left"
+          >
+            <div className="text-white text-sm sm:text-base md:text-lg font-bold">
+              {Array(10).fill(alertMessage).map((msg, index) => (
+                <span key={index} className="mx-8">{msg}</span>
+              ))}
+            </div>
+          </marquee>
         </div>
 
         {/* Microsoft Marquee */}
