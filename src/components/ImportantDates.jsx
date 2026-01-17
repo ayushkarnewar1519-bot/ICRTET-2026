@@ -4,9 +4,9 @@ export default function ImportantDates() {
   const importantDatesData = [
     { event: "Full Paper Submission", date: "15 December 2025", status: "upcoming" },
     { event: "Notification of Acceptance", date: "25 December 2025", status: "upcoming" },
-    { event: "Early Bird Registration", date: "20 December 2025", status: "upcoming" },
-    { event: "Camera Ready Paper Submission", date: "10 January 2026", status: "upcoming" },
-    { event: "Last Date of Registration", date: "18 January 2026", status: "upcoming" },
+    { event: "Early Bird Registration", date: "15 January 2026", status: "upcoming" },
+    { event: "Camera Ready Paper Submission", date: "20 January 2026", status: "upcoming" },
+    { event: "Last Date of Registration", date: "25 January 2026", status: "upcoming" },
     { event: "Conference Dates", date: "6-7 February 2026", status: "highlight" },
     { event: "Poster Presentation", date: "7 February 2026", status: "highlight" }
   ]
