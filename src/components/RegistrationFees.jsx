@@ -96,7 +96,7 @@ export default function RegistrationFees() {
                 </a>
               </Button>
               
-              <img src="/QR-form.png" alt="QR Code" className="mx-auto mt-4 w-32 h-32" /> 
+              <img src="QR-form.png" alt="QR Code" className="mx-auto mt-4 w-32 h-32" /> 
               <p className="text-gray-600 mt-2">Scan QR to Register</p>
             </div>
           </div>
@@ -105,4 +105,5 @@ export default function RegistrationFees() {
     </section>
   );
 }
+
 
