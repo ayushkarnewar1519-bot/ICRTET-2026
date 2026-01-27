@@ -19,11 +19,17 @@ export default function Hero() {
 
   const partnerLogos = [
     { src: "scopus.jpg", alt: "Elsevier" },
-    { src: "springer.jpg", alt: "Springer" },
-    { src: "images.png", alt: "Scopus" },
-    { src: "Picture4.jpg", alt: "ACM" },
-    { src: "Picture5.jpg", alt: "Wiley" },
-    { src: "ieee.jpg", alt: "IEEE" },
+    
+    { src: "web.png", alt: "Scopus" },
+    { src: "scopus.jpg", alt: "Elsevier" },
+    
+    { src: "web.png", alt: "Scopus" },
+    { src: "scopus.jpg", alt: "Elsevier" },
+    
+    { src: "web.png", alt: "Scopus" },
+    { src: "scopus.jpg", alt: "Elsevier" },
+    
+    { src: "web.png", alt: "Scopus" },
   ];
   const duplicatedLogos = [...partnerLogos, ...partnerLogos];
 
