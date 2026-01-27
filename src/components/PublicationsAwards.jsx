@@ -26,9 +26,9 @@ export default function PublicationsAwards() {
                 of the following publishers:
               </p>
               <ul className="space-y-2 text-gray-600 list-disc list-inside pl-4 mb-4">
-                <li>EAI / Springer – Innovations in Communication and Computing</li>
-                <li>Taylor & Francis Group</li>
-                <li>Atlantis Press, Springer Nature</li>
+                <li>Scopus Indexing</li>
+                <li>Scitepress Publication book chapter in conference proceeding</li>
+                
               </ul>
               <p className="text-sm text-gray-500">
                 Additional charges will be applicable as per publisher’s policy and publication will be subject to
