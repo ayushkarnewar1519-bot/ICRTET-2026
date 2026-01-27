@@ -41,11 +41,7 @@ export default function Navbar({ activeSection, scrollToSection }) {
               alt="AICTE Logo"
               className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto object-contain"
             />
-            <img
-              src="iee.png"
-              alt="IEEE Logo"
-              className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto object-contain"
-            />
+            
           </div>
 
           {/* ---------- Desktop Navigation ---------- */}
