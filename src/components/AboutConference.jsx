@@ -4,8 +4,8 @@ export default function AboutConference() {
   const keynoteSpeakersData = [
     {
       name: "Prof. Persi Engineer",
-      title: "Provost",
-      info: "First Provost of Sarvajanik University",
+      title: "First Provost",
+      info: "Sarvajanik University",
       affiliation: "Surat, India",
       image: "speak5.jpeg",
     },
